@@ -20,3 +20,5 @@ with the squeeze-and-excitation block, the neural nets are better able to map th
 This main idea can be further explained using the Squeeze-and-Excitation block image above from the paper. First, a feature transformation (such as a convolution operation) is performed on the input image X to get features U. Next, we perform a squeeze operation to get a single value for each channel of output U. After, we perform an excitation operation on the output of the squeeze operation to get per-channel weights.
 
 Finally, once we have the per-channel weights, the final output of the block is obtained by rescaling the feature map U with these activations.
+
+For more information visit : https://www.linkedin.com/pulse/squeeze-and-excitation-networks-senet-ayoub-kirouane
